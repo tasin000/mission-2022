@@ -1,0 +1,314 @@
+/* reset codes and common codes */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /* 
+    font-family: 'Baloo Bhaijaan 2',
+    cursive;
+    font-family: 'Gideon Roman',
+    cursive;
+    font-family: 'Lora',
+    serif;
+    font-family: 'Montserrat',
+    sans-serif;
+    font-family: 'Roboto',
+    sans-serif;
+    font-family: 'Lobster',
+    cursive;
+    font-family: 'Be Vietnam Pro',
+    sans-serif;
+    */
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.container{
+    max-width: 1150px;
+    margin: auto;
+}
+
+.width-35{
+    width: 35%;
+}
+
+.width-65{
+    width: 65%;
+}
+
+button{
+    border: none;
+    border-radius: 5px;
+    font-family: 'Montserrat',
+    sans-serif;
+    font-size: 17px;
+    padding: 15px 25px;
+    background-color: #FF5959;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 10px 0;
+    opacity: 0.9;
+}
+
+h1, h2, p{
+    opacity: 0.9;
+}
+
+/* home section designing */
+.home{
+    display: flex;
+    
+}
+
+.home-content{
+    margin-top: 130px;
+}
+
+.home-content h1{
+    font-family: 'Lora',
+    serif;
+    font-size: 60px;
+    border-left: 5px solid tomato;
+    padding-left: 15px;
+}
+
+.home-content h1 span{
+    color: orange;
+}
+
+.home-content p{
+    font-family: 'Montserrat',
+    sans-serif;
+    width: 50%;
+    margin: 20px 0;
+    font-weight: 600;
+    letter-spacing: .5px;
+    font-size: 18px;
+}
+
+.home img{
+    width: auto;
+    height: 550px;
+}
+
+/* mission section */
+.mission{
+    margin-top: 130px;
+}
+
+.mission h1{
+    font-size: 50px;
+    font-family: 'Baloo Bhaijaan 2',
+    cursive;
+    text-align: center;
+    font-weight: 800;
+    margin: 25px 0;
+}
+
+.mission h1 span{
+    color: orange;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.card{
+    width: 365px;
+    height: 500px;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.card img{
+    height: 170px;
+    width: auto;
+    margin: 10px 0;
+}
+
+.card h2{
+    font-size: 30px;
+    margin: 15px 0;
+    font-family: 'Roboto',
+    sans-serif;
+}
+
+.card p{
+    font-family: 'Montserrat',
+    sans-serif;
+    font-weight: 500;
+    padding: 1% 0;
+    line-height: 22px;
+}
+
+.goal-color{
+    background-color: #FFF4D6;
+}
+
+.vision-color{
+    background-color: #FFEEEE;
+}
+
+.mission-color{
+    background-color: #EDF5F6;
+}
+
+/* coding section */
+.code{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.code img{
+    width: 400px;
+    height: auto;
+}
+
+.code .content{
+    padding: 6%;
+}
+
+.code .content h1{
+    font-family: 'Be Vietnam Pro',
+    sans-serif;
+    font-size: 35px;
+}
+
+.code .content p{
+    font-family: 'Montserrat',
+    sans-serif;
+    margin: 15px 0;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+/* project section */
+.project{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project .contents{
+    padding: 6% 6% 0 0;
+}
+
+.project .contents h1 {
+    font-family: 'Be Vietnam Pro',
+    sans-serif;
+    font-size: 35px;
+}
+
+.project .contents p {
+    font-family: 'Montserrat',
+    sans-serif;
+    margin: 15px 0;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.project img {
+    width: 400px;
+    height: auto;
+}
+
+/* contact section */
+.contact{
+    margin-top: 100px;
+    font-family: 'Baloo Bhaijaan 2',
+    cursive;
+}
+
+.contact h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+.contact span{
+    color: orange;
+}
+
+.contact form{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact form input[type="text"]{
+    width: 500px;
+    font-size: 20px;
+    margin: 10px 0;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    border: 2px solid;
+    font-family: 'Baloo Bhaijaan 2',
+    cursive;
+}
+
+.contact form input[type="email"]{
+    width: 500px;
+    font-size: 20px;
+    margin: 10px 0;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    border: 2px solid;
+    font-family: 'Baloo Bhaijaan 2',
+    cursive;
+}
+
+.contact form textarea{
+    width: 500px;
+    resize: vertical;
+    font-family: 'Baloo Bhaijaan 2',
+    cursive;
+    border: 2px solid;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.contact form ::placeholder{
+    font-family: 'Baloo Bhaijaan 2',
+    cursive;
+    font-size: 20px;
+}
+
+.contact form button{
+    margin: 0 10px 10px 10px;
+}
+
+/* footer design */
+footer{
+    margin-top: 0;
+    text-align: center;
+    background-color: #000;
+    padding: 25px;
+}
+
+footer h1{
+    font-family: 'Lobster',
+    cursive;
+    color: #fff;
+    font-weight: 300;
+}
+
+footer h1 span{
+    color: #FF5959;
+}
+
+footer p{
+    font-family: 'Montserrat',
+    sans-serif;
+    color: #fff;
+    margin-top: 10px;
+}
